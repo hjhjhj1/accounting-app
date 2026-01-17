@@ -4,12 +4,25 @@
       <router-link to="/" class="nav-item">首页</router-link>
       <router-link to="/add" class="nav-item">添加记录</router-link>
       <router-link to="/stats" class="nav-item">统计</router-link>
+      <router-link to="/recurring" class="nav-item">周期账单</router-link>
     </nav>
     <main class="container">
       <router-view/>
     </main>
   </div>
 </template>
+
+<script>
+import { provide } from 'vue'
+import { recurringBillsStore } from './stores/recurringBillsStore'
+
+export default {
+  name: 'App',
+  setup() {
+    provide('recurringBillsStore', recurringBillsStore)
+  }
+}
+</script>
 
 <style>
 #app {
@@ -41,4 +54,3 @@
   padding: 20px;
 }
 </style>
-    
