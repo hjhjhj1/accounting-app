@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import RecordView from '../views/RecordView.vue'
 import StatisticsView from '../views/StatisticsView.vue'
+import PeriodicBillingManager from '../components/periodic-billing/PeriodicBillingManager.vue'
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/stats',
     name: 'statistics',
     component: StatisticsView
+  },
+  {
+    path: '/periodic-billing',
+    name: 'periodic-billing',
+    component: PeriodicBillingManager
   }
 ]
 
