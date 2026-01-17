@@ -1,0 +1,24 @@
+{
+  "recurringBills": {
+    "title": "Recurring Bills Management",
+    "addBill": "Add Recurring Bill",
+    "exportPDF": "Export PDF",
+    "print": "Print",
+    "name": "Bill Name",
+    "amount": "Amount",
+    "frequency": "Frequency",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "yearly": "Yearly",
+    "irregular": "Irregular",
+    "irregularDates": "Irregular Dates (comma separated)",
+    "startDate": "Start Date",
+    "periods": "Number of Periods",
+    "save": "Save",
+    "cancel": "Cancel",
+    "preview": "Preview",
+    "edit": "Edit",
+    "delete": "Delete",
+    "previewTitle": "{name} - Bill Preview"
+  }
+}

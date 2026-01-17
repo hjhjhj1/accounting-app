@@ -1,0 +1,24 @@
+{
+  "recurringBills": {
+    "title": "周期账单管理",
+    "addBill": "添加周期账单",
+    "exportPDF": "导出PDF",
+    "print": "打印",
+    "name": "账单名称",
+    "amount": "金额",
+    "frequency": "频率",
+    "monthly": "月度",
+    "quarterly": "季度",
+    "yearly": "年度",
+    "irregular": "不规则",
+    "irregularDates": "不规则日期（用逗号分隔）",
+    "startDate": "开始日期",
+    "periods": "期数",
+    "save": "保存",
+    "cancel": "取消",
+    "preview": "预览",
+    "edit": "编辑",
+    "delete": "删除",
+    "previewTitle": "{name} - 账单预览"
+  }
+}
