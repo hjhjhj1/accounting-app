@@ -76,8 +76,13 @@ at eval (webpack-internal:///./node_modules/webpack-dev-server/client/overlay.js
 修复首轮问题：
 webpack-dev-server的runtime错误覆盖层问题。禁用这个错误覆盖层来修复
 
+第三轮
+页面美观度差，一眼看去无法定位核心功能，产出的ui无法一眼快速引导用户上手，逻辑分层差
+
 结果：
 功能完成，导出和预览正常使用
+
+
 
 prime
 首轮
