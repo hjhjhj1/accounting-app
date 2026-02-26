@@ -4,6 +4,7 @@
       <router-link to="/" class="nav-item">首页</router-link>
       <router-link to="/add" class="nav-item">添加记录</router-link>
       <router-link to="/stats" class="nav-item">统计</router-link>
+      <router-link to="/recurring" class="nav-item">周期账单</router-link>
     </nav>
     <main class="container">
       <router-view/>

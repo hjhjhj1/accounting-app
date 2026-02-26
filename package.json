@@ -25,7 +25,8 @@
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true
+      "node": true,
+      "vue/setup-compiler-macros": true
     },
     "extends": [
       "plugin:vue/vue3-essential",
@@ -33,6 +34,13 @@
     ],
     "parserOptions": {
       "parser": "@babel/eslint-parser"
+    },
+    "globals": {
+      "defineProps": "readonly",
+      "defineEmits": "readonly",
+      "defineExpose": "readonly",
+      "defineOptions": "readonly",
+      "withDefaults": "readonly"
     },
     "rules": {}
   },
