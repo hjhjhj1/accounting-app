@@ -4,6 +4,7 @@
       <router-link to="/" class="nav-item">首页</router-link>
       <router-link to="/add" class="nav-item">添加记录</router-link>
       <router-link to="/stats" class="nav-item">统计</router-link>
+      <router-link to="/recurring" class="nav-item">周期账单</router-link>
     </nav>
     <main class="container">
       <router-view/>
@@ -17,7 +18,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  max-width: 800px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -35,6 +36,18 @@
   color: #3498db;
   text-decoration: none;
   font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.nav-item:hover {
+  background-color: #e9ecef;
+}
+
+.nav-item.router-link-active {
+  background-color: #3498db;
+  color: #fff;
 }
 
 .container {
